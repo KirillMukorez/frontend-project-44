@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import cli from '../bin/brain-even.js';
+import cli from '../src/units/cli.js';
 cli();
