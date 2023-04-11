@@ -1,3 +1,15 @@
-import {randomNumber} from "../units/randomNumber"
-import startgame from "../cli.js"
-export rules 
+import randomNumber from "../units/randomNumber.js";
+import getGame from "../units/index.js";
+const evenNumber = (number) => number % 2 === 0;
+
+const gamePhrase = ('Answer "yes" if the number is even, otherwise answer "no"."');
+
+const game = () => {
+  const number = randomNumber(1, 50);
+  const correctAnswer = evenNumber(number) ? 'yes' : 'no';
+  return [number, correctAnswer];
+};
+
+export default () => {
+  getGame(gamePhrase, game);
+};
