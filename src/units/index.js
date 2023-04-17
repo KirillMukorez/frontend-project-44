@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import startgame from './cli.js';
 
 const maxRound = 3;
 
