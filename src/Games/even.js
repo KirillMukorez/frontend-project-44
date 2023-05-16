@@ -1,5 +1,5 @@
 import randomNumber from "../units/randomNumber.js";
-import getGame from "../units/index.js";
+import getGame from "../index.js";
 const evenNumber = (number) => number % 2 === 0;
 
 const gamePhrase = ('Answer "yes" if the number is even, otherwise answer "no"."');

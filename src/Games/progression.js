@@ -1,5 +1,5 @@
 import randomNumber from "../units/randomNumber.js";
-import getGame from "../units/index.js";
+import getGame from "../index.js";
 const gamePhrase = ('What number is missing in the progression?');
 
 const progression = (number, step, length) => {

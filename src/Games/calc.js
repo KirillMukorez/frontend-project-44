@@ -1,5 +1,5 @@
 import randomNumber from "../units/randomNumber.js";
-import getGame from "../units/index.js";
+import getGame from "..src/index.js";
 const actions = ['+', '-', '*'];
 const randomAction = (arr) => {
   const random = Math.floor(Math.random() * arr.length);
