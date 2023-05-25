@@ -1,5 +1,6 @@
-import randomNumber from "../units/randomNumber.js";
-import Game from "../index.js";
+import randomNumber from '../units/randomNumber.js';
+import Game from '../index.js';
+
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const Prime = (num) => {
   if (num <= 1) return false;

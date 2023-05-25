@@ -1,10 +1,10 @@
 import readlineSync from 'readline-sync';
-import startgame from "./../src/cli.js";
+import startgame from './cli.js';
 
 const maxRound = 3;
 
 const getGame = (gamePhrase, game) => {
-  const userName = startgame()
+  const userName = startgame();
   console.log(gamePhrase);
   for (let i = 0; i < maxRound; i += 1) {
     const [number, answer] = game();
